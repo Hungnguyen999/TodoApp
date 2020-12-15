@@ -3,7 +3,26 @@ import TodoItem from '../TodoItem/TodoItem';
 import FinishedItem from '../FinishedItem/FinishedItem';
 import SendDataAnimation from '../SendDataAnimation/SendData';
 function Content() {
-
+    var data = [
+        {
+            itemTitle: "Nguyen Duy Hung",
+            itemDescription: "blabla",
+            itemName: "Hung",
+            itemImage: "Url",
+        },
+        {
+            itemTitle: "Chong duc anh",
+            itemDescription: "blabla",
+            itemName: "Hung",
+            itemImage: "Url",
+        },
+        {
+            itemTitle: "Vo dinh phu",
+            itemDescription: "blabla",
+            itemName: "Hung",
+            itemImage: "Url",
+        }
+    ]
     return (
         <div class="container">
             <div class="row">
