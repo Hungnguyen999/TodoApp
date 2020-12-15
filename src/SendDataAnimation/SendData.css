@@ -1,0 +1,10 @@
+.animation-sendata {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation: mymove 3s both;
+}
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 250px;}
+}

@@ -61,7 +61,7 @@ function TodoItem(props) {
                                         <Typography variant="subtitle1"> 
                                         <Chip
                                             icon={<FaceIcon />}
-                                            label="Deletable"
+                                            label="Important"
                                             onDelete={handleDelete}
                                             color="secondary"
                                         />
@@ -69,7 +69,6 @@ function TodoItem(props) {
                                     </Grid>
                                 </div>
                             </div>
-                            
                         </Grid>
                         <Grid item xs={12} sm container>
                             <Grid item xs container direction="column" spacing={2}>
@@ -85,7 +84,7 @@ function TodoItem(props) {
                                     <Typography variant="body2" style={{ cursor: 'pointer' }}>
                                         <div class="container">
                                             <div class="row">
-                                                <div class="col-8">
+                                                <div class="col-7">
                                                     <Button
                                                         variant="contained"
                                                         color="secondary"
