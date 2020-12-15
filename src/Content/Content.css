@@ -1,0 +1,28 @@
+.table-title  {
+    text-align: center;
+    color: blue;
+}
+.todo-list {
+    box-shadow: 1px 1px 1px 10px;
+    border-radius: 1%;
+    margin: 1% 0 0 0;
+}
+.finished-list {
+    box-shadow: 1px 1px 1px 10px;
+    border-radius: 1%;
+    margin: 1% 0 0 0;
+}
+.animation-send-data{
+    padding-top: 30%;
+    text-align: center;
+}
+.todo-title {
+    text-align: center;
+    color: chartreuse;
+    font-size: 3rem;
+}
+.finished-title {
+    text-align: center;
+    color: firebrick;
+    font-size: 3rem;
+}
